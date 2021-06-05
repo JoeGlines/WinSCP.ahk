@@ -13,8 +13,8 @@ This Lib allows the use of [WinSCP](http://winscp.net/) in AHK by creating a wra
 ### Loading WinSCP.ahk
 1. **The DLL file has to be registered**. This is done with  
 
-      %WINDIR%\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe WinSCPnet.dll /codebase <path_to>WinSCPnet.dll
-      %WINDIR%\Microsoft.NET\Framework64\v4.0.30319\RegAsm.exe WinSCPnet.dll /codebase <path_to>WinSCPnet.dll  
+      %WINDIR%\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe <path_to>WinSCPnet.dll /codebase <path_to>WinSCPnet.dll
+      %WINDIR%\Microsoft.NET\Framework64\v4.0.30319\RegAsm.exe <path_to>WinSCPnet.dll /codebase <path_to>WinSCPnet.dll  
 	  
 or by running the included `WinSCP_regDLL.cmd` file  
 _The commands must be run with Admin permissions (elevated)_  
